@@ -49,14 +49,29 @@
         			transition: 0.3s;           /* Faz a mudança ser suave, não de uma vez */
 
 			}
+			.video-container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center; /* Centraliza o vídeo horizontalmente */
+			}
+			iframe {
+        border-radius: 15px; /* Deixa as bordas do vídeo arredondadas */
+        border: 2px solid #39ff14; /* Borda neon verde */
+        box-shadow: 0 0 20px #39ff14; /* Brilho em volta do vídeo */
+    }
 		</style>
 	<body>
 		<h1>EU TE AMO OIGRES<3</h1>
 		<p> QUERO CASAR COM VOCÊ</p>
 		
 		<img src=https://i.pinimg.com/originals/8c/53/28/8c5328e8d216b1db5bbb658f06ce478b.gif alt=Coração" style="width: 200px;">
-		<br> <a href=https://youtu.be/vGJTaP6anOU?list=RDvGJTaP6anOU target=_blank class="meu-botao">Ouvir Nossa Música</a>
+		<div class = "video-container">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/vGJTaP6anOU?si=ewGPefU3ugOwhtGq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+			<br> <a href=https://youtu.be/vGJTaP6anOU?list=RDvGJTaP6anOU target=_blank class="meu-botao">Ouvir Nossa Música</a>
 
 	</body>
 </html>
+
 
